@@ -1,0 +1,36 @@
+{
+  "company_name": "TechSolutions Chile SpA",
+  "rut": "76.123.456-7",
+  "capabilities": [
+    "Desarrollo Web",
+    "Desarrollo Móvil",
+    "Cloud Computing",
+    "Inteligencia Artificial",
+    "DevOps",
+    "Ciberseguridad"
+  ],
+  "tech_stack": {
+    "languages": ["Python", "JavaScript", "TypeScript", "Java", "SQL"],
+    "frameworks": ["React", "Next.js", "FastAPI", "Django", "Node.js"],
+    "cloud": ["AWS", "Azure", "Google Cloud"],
+    "databases": ["PostgreSQL", "MongoDB", "Redis"],
+    "tools": ["Docker", "Kubernetes", "Jenkins", "Git"]
+  },
+  "certifications": [
+    "AWS Certified Solutions Architect",
+    "ISO 27001",
+    "Microsoft Gold Partner"
+  ],
+  "experience_years": 8,
+  "team_size": 25,
+  "financial_capacity": {
+    "max_project_value_clp": 500000000,
+    "annual_revenue_clp": 1200000000
+  },
+  "preferred_regions": [
+    "Región Metropolitana",
+    "Región de Valparaíso",
+    "Región del Biobío",
+    "Global"
+  ]
+}

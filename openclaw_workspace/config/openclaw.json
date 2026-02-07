@@ -1,0 +1,44 @@
+{
+  "gateway": {
+    "http": {
+      "endpoints": {
+        "chatCompletions": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "models": {
+    "providers": {
+      "openai": {
+        "api": "openai-completions",
+        "baseUrl": "http://ollama:11434/v1",
+        "apiKey": "ollama",
+        "models": [{ "id": "llama3.1", "name": "llama3.1" }]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "openai/llama3.1"
+      }
+    }
+  },
+  "skills": {
+    "entries": {
+      "mcporter": {
+        "config": {
+          "mcpServers": {
+            "database": {
+              "url": "http://licitaciones_mcp_postgres:8080/sse"
+            },
+            "browser": {
+              "url": "http://licitaciones_mcp_browser:8081/sse"
+            }
+          }
+        }
+      }
+    }
+  }
+}
